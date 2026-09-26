@@ -73,7 +73,7 @@ All in `orderbook.py`:
 pytest
 ```
 
-Besides some normal unit tests, `reference_book.py` is a diluted-down
+Besides some normal unit tests, `reference_book.py` is a simplified
 version of the book that just loops over every resting order to find the best
 match. The test generates 1,000 random sequences of 200 orders each (limit,
 market and cancels mixed together, with prices in a tight range so lots of
